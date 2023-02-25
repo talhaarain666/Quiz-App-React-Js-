@@ -1,0 +1,48 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/abstract-background-with-red-lines_1361-3531.jpg?w=826&t=st=1674990267~exp=1674990867~hmac=afb434f4992a9401a12626c4e5391f58354799c1d6a9af40a9368f6624400986");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btnOptions:hover {
+  background-color: black !important;
+  color: white;
+}
+
+.appHeading {
+  width: 150px;
+  height: 35px;
+  background: black;
+  color: white;
+  position: relative;
+  text-align: center;
+
+  box-shadow: #e0091f 1.95px 1.95px 2.6px
+}
+
+.appHeading:before {
+  content: '';
+  position: absolute;
+  right: -18px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 18px solid black;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+
+.optionsAdminPanel{
+  background-color: black;
+  color: white;
+  margin: 1rem !important;
+  width: 40%;
+  padding: 0.5rem;
+}
